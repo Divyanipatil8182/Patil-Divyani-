@@ -1,0 +1,21 @@
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+var a=new Array(5)
+
+a[0]="divyani"
+a[1]="janhavi"
+a[2]="tejswini"
+a[3]="pornima"
+a[4]="srushti"
+alert(a.length)
+document.write(a.sort())
+document.write(a.reverse())
+for(i=0;i<=4; i++)
+{
+document.write(a[i]+"  "+"<br>")
+}
+</script>
+</body>
+</html>
